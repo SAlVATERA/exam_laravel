@@ -8,6 +8,8 @@
 </head>
 <body>
     <h1>Products</h1>
-    <p>{{$data}}</p>
+    @foreach ($data as $item)
+        {{$item}}
+    @endforeach
 </body>
 </html>
